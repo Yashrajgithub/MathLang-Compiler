@@ -61,7 +61,7 @@ product of x and y where x is 5 and y is 4
 sum of a and b where a is 4 and b is 8
 
 # Clone the repo
-git clone [https://github.com/your-username/mathlang-compiler.git](https://github.com/your-username/mathlang-compiler.git)
+git clone https://github.com/your-username/mathlang-compiler.git
 cd mathlang-compiler
 
 # Install dependencies
