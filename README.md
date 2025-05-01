@@ -1,4 +1,4 @@
-# 📐 MathLang Compiler
+# 💻 MathLang Compiler
 
 > **Transform plain English math into executable code.**
 > An advanced AI-powered tool that parses natural language math expressions and generates real JavaScript code.
