@@ -1,54 +1,84 @@
-# React + TypeScript + Vite
+# 📐 MathLang Compiler
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> **Transform plain English math into executable code.**  
+> An advanced AI-powered tool that parses natural language math expressions and generates real JavaScript code.
 
-Currently, two official plugins are available:
+[🌐 Live Demo](https://math-lang-compiler.vercel.app/) | Built with ❤️ using React, TypeScript, Vite
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Overview
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+**MathLang Compiler** is a cutting-edge web application designed to convert simple natural language math expressions into executable JavaScript code. With a focus on intuitive input, real-time generation, and execution, this tool bridges the gap between human-readable language and computational logic.
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+Ideal for:
+- Demonstrating NLP + code execution synergy
+- Educational purposes
+- Rapid prototyping of logic from descriptive inputs
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## ✨ Features
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+- 🧠 AI-inspired rule-based parser for natural language math
+- 🧾 Auto-generates clean, executable JavaScript code
+- ▶️ Run code directly in-browser with output display
+- 💬 Built-in expression examples for quick testing
+- 🎥 Lightweight animation/WebM to enhance UI
+- 🎨 Clean and responsive interface using Tailwind CSS
+
+---
+
+## 📸 Preview
+
+![screenshot](https://user-images.githubusercontent.com/your-screenshot-placeholder.png)  
+*Live preview:* 👉 https://math-lang-compiler.vercel.app/
+
+---
+
+## 🛠️ Tech Stack
+
+| Tech                      | Description                         |
+|---------------------------|-------------------------------------|
+| ⚛️ React                 | Frontend framework                  |
+| 🧑‍💻 TypeScript          | Static typing for JavaScript        |
+| ⚡ Vite                  | Fast build tool                     |
+| 🧩 PrismJS               | Syntax highlighting for code editor |
+| 💅 Tailwind CSS          | Utility-first CSS framework         |
+| 📦 React Simple Code Editor | Embedded code editor           |
+
+---
+
+## 💡 Example Inputs
+
+Try any of the following in the input box:
+
+```text
+sum of 10 and 20
+difference of 50 and 15
+square of 9
+product of x and y where x is 5 and y is 4
+sum of a and b where a is 4 and b is 8
+
+---
+
+## 🧑‍💻 Getting Started
+
+### 🔧 Prerequisites
+- Node.js ≥ 18  
+- npm or yarn
+
+---
+
+## 📦 Installation
+
+```bash
+# Clone the repo
+git clone https://github.com/your-username/mathlang-compiler.git
+cd mathlang-compiler
+
+# Install dependencies
+npm install
+
+# Run locally
+npm run dev
