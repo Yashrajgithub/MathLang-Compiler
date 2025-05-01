@@ -1,6 +1,6 @@
 # 📐 MathLang Compiler
 
-> **Transform plain English math into executable code.**  
+> **Transform plain English math into executable code.**
 > An advanced AI-powered tool that parses natural language math expressions and generates real JavaScript code.
 
 [🌐 Live Demo](https://math-lang-compiler.vercel.app/) | Built with ❤️ using React, TypeScript, Vite
@@ -31,21 +31,21 @@ Ideal for:
 
 ## 📸 Preview
 
-![screenshot](https://user-images.githubusercontent.com/your-screenshot-placeholder.png)  
+![screenshot](https://github.com/Yashrajgithub/MathLang-Compiler/blob/main/Preview.png)
 *Live preview:* 👉 https://math-lang-compiler.vercel.app/
 
 ---
 
 ## 🛠️ Tech Stack
 
-| Tech                      | Description                         |
-|---------------------------|-------------------------------------|
-| ⚛️ React                 | Frontend framework                  |
-| 🧑‍💻 TypeScript          | Static typing for JavaScript        |
-| ⚡ Vite                  | Fast build tool                     |
-| 🧩 PrismJS               | Syntax highlighting for code editor |
-| 💅 Tailwind CSS          | Utility-first CSS framework         |
-| 📦 React Simple Code Editor | Embedded code editor           |
+| Tech                      | Description                                     |
+|---------------------------|-------------------------------------------------|
+| ⚛️ React                   | Frontend framework                              |
+| 🧑‍💻 TypeScript              | Static typing for JavaScript                    |
+| ⚡ Vite                    | Fast build tool                                 |
+| 🧩 PrismJS                 | Syntax highlighting for code editor             |
+| 💅 Tailwind CSS            | Utility-first CSS framework                     |
+| 📦 React Simple Code Editor | Embedded code editor                            |
 
 ---
 
@@ -60,21 +60,8 @@ square of 9
 product of x and y where x is 5 and y is 4
 sum of a and b where a is 4 and b is 8
 
----
-
-## 🧑‍💻 Getting Started
-
-### 🔧 Prerequisites
-- Node.js ≥ 18  
-- npm or yarn
-
----
-
-## 📦 Installation
-
-```bash
 # Clone the repo
-git clone https://github.com/your-username/mathlang-compiler.git
+git clone [https://github.com/your-username/mathlang-compiler.git](https://github.com/your-username/mathlang-compiler.git)
 cd mathlang-compiler
 
 # Install dependencies
