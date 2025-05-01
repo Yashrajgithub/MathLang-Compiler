@@ -71,7 +71,7 @@ sum of a and b where a is 4 and b is 8
 
 ```bash
 # Clone the repo
-git clone https://github.com/your-username/mathlang-compiler.git
+git clone https://github.com/Yashrajgithub/MathLang-Compiler.git
 cd mathlang-compiler
 
 # Install dependencies
