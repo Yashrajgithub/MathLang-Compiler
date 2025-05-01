@@ -3,7 +3,7 @@
 > **Transform plain English math into executable code.**
 > An advanced AI-powered tool that parses natural language math expressions and generates real JavaScript code.
 
-[🌐 Live Demo](https://math-lang-compiler.vercel.app/) | Built with ❤️ using React, TypeScript, Vite
+[🌐  Live Demo](https://math-lang-compiler.vercel.app/) |
 
 ---
 
